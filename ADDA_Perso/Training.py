@@ -407,7 +407,7 @@ def wasserstein_adversarial_training(
     target_dataloaders,
     target_dataloaders_discri,
     num_epoch,
-    lambda_gp=10
+    lambda_gp=10,
     device = None,
     log=False):
     
